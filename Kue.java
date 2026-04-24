@@ -7,7 +7,6 @@ public abstract class Kue {
         this.harga = harga;
     }
 
-    // Getter
     public String getNama() {
         return nama;
     }
@@ -16,7 +15,6 @@ public abstract class Kue {
         return harga;
     }
 
-    // Abstract method
     public abstract double hitungHarga();
 
     @Override
