@@ -3,7 +3,6 @@ public class Main {
 
         Kue[] daftarKue = new Kue[20];
 
-        // Mengisi array
         for (int i = 0; i < 20; i++) {
             if (i % 2 == 0) {
                 daftarKue[i] = new KuePesanan("Kue Pesanan " + i, 10000, i + 1);
